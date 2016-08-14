@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="src/stylez.css">
+    <title>Clickloans.com.au - test</title>
+  </head>
+  <body>
+    <div class="example3">
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="https://www.clickloans.com.au"><img src="https://www.clickloans.com.au/resource/1468505490000/acfNewResources/acfNewResources/images/logo_landing.png" alt="Click Loans Test"></a>
+          </div>
+          <div id="navbar3" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Home</a></li><li><a href="https://github.com/towa-nz/Clickloans-test">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--- app section ------>
+    <section>
+      <div class="container">
+        <div class="col-md-10 col-md-push-1 main-items">
+            <h1 class="main-headr">ReactJS JSON API application</h1>
+            <footer>- created by <cite title="Source Title">Ali. Attayee</cite></footer>
+          </div>
+      </div>
+    </section>
+    <script type="text/babel" src="src/react.js"></script>
+    <section>
+      <div class="container">
+        <div class="col-md-6 col-md-push-3">
+          <div id="app1"></div>
+        </div>
+    </div>
+    </section>
+    <!--------------------->
+    <!--- test section --->
+    <div class="container test-container">
+      <div class="col-md-12 btn1">
+         <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#qunit-results">View test results</button>
+       </div>
+      <div class="col-md-12 collapse" id="qunit-results">
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+      </div>
+    </div>
+    <script src="//code.jquery.com/qunit/qunit-1.14.0.js"></script>
+    <script src="src/tests.js"></script>
+    <!--------------------->
+  </body>
+</html>
